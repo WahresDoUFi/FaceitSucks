@@ -6,5 +6,5 @@
    __2.2__ - "scroll_amount should probably match the height of the area to search, it defines how much the script scrolls down in the list after clicking each checkbox.<br/>
    __2.3__ - "scroll_pause_time" gives the script some breathing room before repeating the process. The lower this value is, the faster the script executes.<br/>
    __2.4__ - "click_pause_time" stops the script for some time after clicking a checkbox in order to not miss an input<br/>
-   __2.5__ - "color_to_find" if you want to reanable all checkboxes you could adjust the color with the corresponding R, G, B values. It's basically the color that gets clicked when the script runs<br/>
+   __2.5__ - "color_to_find" if you want to enable all checkboxes again you could adjust the color with the corresponding R, G, B values. It's basically the color that gets clicked when the script runs<br/>
 3. Run the script and bring Faceit to the front. Press "Shift + G" to start the execution. It will automatically stop if it doesn't find the color anymore
