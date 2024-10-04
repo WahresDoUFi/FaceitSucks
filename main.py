@@ -3,11 +3,11 @@ import numpy as np
 import time
 import keyboard
 
-color_to_find = (255, 85, 0)
 search_area = (1480, 455, 1, 400) 
-color_area = (1483, 464, 1, 1)
+color_to_find = (255, 85, 0)
 scroll_amount = 400 
-scroll_pause_time = 0.1 
+scroll_pause_time = 0.1
+click_pause_time = 0.05 
 
 def find_and_click_color(color, area):
     screenshot = pyautogui.screenshot(region=area)
@@ -25,7 +25,7 @@ def find_and_click_color(color, area):
                     x = search_area[0]
                     y = search_area[1] + y
                     pyautogui.click(x, y)
-                    time.sleep(0.05)
+                    time.sleep(click_pause_time)
             else:
                 active = False
     
